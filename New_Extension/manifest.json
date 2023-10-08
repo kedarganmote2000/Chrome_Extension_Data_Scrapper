@@ -1,0 +1,15 @@
+{
+    "manifest_version":3,
+    "name" : "Data Scraper",
+    "version" : "1.0",
+    "description":"Data Scrap from Website",
+    "action":{
+        "default_popup":"popup.html",
+        "default_title":"My Extension"
+    },
+    "permissions":[
+        "activeTab",
+        "scripting"
+    ]
+
+}
