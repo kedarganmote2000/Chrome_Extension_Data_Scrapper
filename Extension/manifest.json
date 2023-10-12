@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Table Scraper",
+    "version": "1.0",
+    "description": "Scrape and save tables in CSV format",
+    "permissions": ["activeTab", "downloads", "scripting"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "WebS.png"
+    },
+    "icons": {
+      "256":"WebS.png"
+    }
+  }
+  
