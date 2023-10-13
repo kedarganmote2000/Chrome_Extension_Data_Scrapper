@@ -2,7 +2,7 @@
 // This script scrapes the table and sends it to the extension.
 
 function scrapeTable() {
-    const table = document.querySelector("table"); // Modify this selector as needed.
+    const table = document.querySelector("table"); 
     const rows = table.querySelectorAll("tr");
     const data = [];
     
